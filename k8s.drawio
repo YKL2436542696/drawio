@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2024-03-24T05:20:32.541Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.1.0 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="vxoWL826504Fpea7PEiz" version="24.1.0" type="device">
+<mxfile host="Electron" modified="2024-07-13T05:41:30.226Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.6.4 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="G4n7qSrH6xs2r8crG8wf" version="24.6.4" type="device">
   <diagram name="Page-1" id="Page-1">
-    <mxGraphModel dx="2911" dy="1973" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3163" dy="2124" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1832,7 +1832,7 @@
         </UserObject>
         <UserObject label="" tags="背景" id="368">
           <mxCell style="vsdxID=367;fillColor=none;gradientColor=none;points=[];labelBackgroundColor=none;rounded=0;strokeColor=none;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-            <mxGeometry x="899" y="2682" width="40" height="56" as="geometry" />
+            <mxGeometry x="899" y="2682" width="61" height="64" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="369" value="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:left;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:12px;font-family:0;color:#000000;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;&lt;b&gt;包&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" style="verticalAlign=middle;align=left;overflow=width;vsdxID=368;fillColor=#FFFFFF;gradientColor=none;shape=stencil(lVLLEoIwDPyaXjt9II8z4n8wQ5GOSLGA4t9LDQjEB+Mt2ew2myZExk2R1ooI1rTWnNRNZ21B5J4IoatCWd0OEZEJkXFurDpa01UZ5HXqmC46m6t7oQcdcwrB7pB5HvW9J3IAcqmrBTlilMvfgkuXZk7Aoc7Z1IBjAesF5ozAjtMg+u5i5o+uBA39fzy8gMnBci5k6vM/0DBYWUBsZGCrPRr/bZ51842NDcG861yXJZzKso5vY4DgrmTyAA==);strokeColor=#000000;spacingTop=-3;spacingBottom=-3;spacingLeft=-3;spacingRight=-3;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="368" vertex="1">
@@ -1842,8 +1842,8 @@
           <mxGeometry width="40" height="56" as="geometry" />
         </mxCell>
         <UserObject label="" tags="背景" id="371">
-          <mxCell style="vsdxID=370;fillColor=none;gradientColor=none;points=[];labelBackgroundColor=none;rounded=0;strokeColor=none;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-            <mxGeometry x="911" y="2685" width="49" height="56" as="geometry" />
+          <mxCell style="vsdxID=370;fillColor=none;gradientColor=none;points=[];labelBackgroundColor=none;rounded=0;strokeColor=none;html=1;whiteSpace=wrap;" parent="368" vertex="1">
+            <mxGeometry x="12" y="8" width="49" height="56" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="372" value="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:left;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:12px;font-family:0;color:#000000;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;&lt;b&gt;包&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" style="verticalAlign=middle;align=left;overflow=width;vsdxID=371;fillColor=#FFFFFF;gradientColor=none;shape=stencil(lZJNEoIwDIVP022nTRHLGvUezFCkI1IsoHh7qQWB+MO4S5P3mi+TEBHXeVIpAqxurDmpm06bnIgdAdBlrqxu+oiIPRFxZqw6WtOWqX9XiVO66Gyu7ofO+5hzALv7VxDQMHhmDl5c6HImjjiV8rfh0iapM3Bf52xswLGBdYA1Q2LD6Tb6TjHpByqgMvyH4ZUYCeZzIaiPBJJyWCAgNQJYa4/Gf5tn2XxlY30w7TrTReFPZV7Ht9Gn/F2J/QM=);strokeColor=#000000;spacingTop=-3;spacingBottom=-3;spacingLeft=-3;spacingRight=-3;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="371" vertex="1">
@@ -3859,7 +3859,7 @@
         </UserObject>
         <UserObject label="每个 CRD 一个&#xa;&#xa;拥有它创建的资源&#xa;&#xa;使用缓存和客户端并通过过滤器获取事件&#xa;&#xa;控制器每次收到事件时都会调用协调器（Reconciler）&#xa;&#xa;处理事件的退避（back-off ）、排队（queuing）和重新排队（re-queuing）" id="M-XLNggWRuSYuwpAQm1n-634">
           <mxCell style="text;whiteSpace=wrap;" parent="1" vertex="1">
-            <mxGeometry x="3170" y="461" width="410" height="159" as="geometry" />
+            <mxGeometry x="3170" y="461" width="410" height="149" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="" id="ZN30_9LbbxlVOkpqkOmS-610">
